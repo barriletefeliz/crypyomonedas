@@ -1,6 +1,4 @@
-
 import React, { Fragment, useState } from 'react';
-import './Styles.css'
 
 const useCoin = (label, initialState, options) => {
 

@@ -1,6 +1,6 @@
 
 import React, { Fragment, useState } from 'react';
-import './Styles.css'
+import './Style.scss'
 
 const useCrypto = (label, initialState, options) => {
 

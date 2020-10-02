@@ -3,9 +3,9 @@ import Form from './Components/Form'
 import Quotation from './Components/Quotation'
 import Spinner from './Components/Spinner';
 import axios from 'axios';
-import './App.css';
 import Header from './Components/Header'
-import Nav from './Components/Nav'
+import Title from './Components/Title'
+import './App.scss';
 
 
 function App() {
@@ -44,7 +44,7 @@ function App() {
 
   return (
     <Fragment>
-      <Nav />
+      <Title />
       <div className="container">
         <div className="app">
           <Header title=""/>

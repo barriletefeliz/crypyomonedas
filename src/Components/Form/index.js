@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import './Styles.css';
 import useCoin from '../../Hooks/useCoin/useCoin';
 import useCrypto from '../../Hooks/Criptomonedas/useCrypto';
 import Error from '../Error'
 import axios from 'axios';
+import './Style.scss';
 
 const Form = ({saveCoin, saveCriptomoneda}) => {
 
