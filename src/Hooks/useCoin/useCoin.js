@@ -10,8 +10,9 @@ const useCoin = (label, initialState, options) => {
     const SelectCoin = () => (
         <Fragment>
             <label className="label">{label}</label>
+            <div className="form-group">
             <select
-                className="select"
+                className="custom-select"
                 onChange={ e => updateState(e.target.value)}
                 value={state}
             >
@@ -21,6 +22,7 @@ const useCoin = (label, initialState, options) => {
 
                 ))}
             </select>
+            </div>
         </Fragment>
     );
  

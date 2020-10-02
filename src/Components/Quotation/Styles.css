@@ -1,0 +1,19 @@
+.container-crypto{
+    margin: auto 1.2rem;
+
+}
+
+.price {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.info {
+    font-size: 18px;
+}
+
+.span {
+    font-weight:bold;
+}
