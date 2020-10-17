@@ -63,7 +63,7 @@ const Form = ({saveCoin, saveCriptomoneda}) => {
                 className="btn btn-info alert btn-lg btn-block"
                 type="submit"
                 value="calcular"
-            >Cotizar</button>
+            >Convertir</button>
         </form>
     );
 }

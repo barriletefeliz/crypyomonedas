@@ -1,10 +1,10 @@
 import React, { Fragment, useState, useEffect } from 'react';
-import Form from './Components/Form'
-import Quotation from './Components/Quotation'
-import Spinner from './Components/Spinner';
-import axios from 'axios';
-import Header from './Components/Header'
 import Title from './Components/Title'
+import Header from './Components/Header'
+import Form from './Components/Form'
+import Spinner from './Components/Spinner';
+import Quotation from './Components/Quotation'
+import axios from 'axios';
 import './App.scss';
 
 
@@ -47,7 +47,7 @@ function App() {
       <Title />
       <div className="container">
         <div className="app">
-          <Header title=""/>
+          <Header title="Conversor de criptomonedas"/>
           <div>
             <Form 
               saveCoin={saveCoin}
