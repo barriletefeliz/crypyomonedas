@@ -47,7 +47,7 @@ function App() {
       <Title />
       <div className="container">
         <div className="app">
-          <Header title="Conversor de criptomonedas"/>
+          <Header/>
           <div>
             <Form 
               saveCoin={saveCoin}
